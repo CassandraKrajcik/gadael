@@ -1,5 +1,5 @@
 {
-  "name": "gadael",
+* "name": "gadael",
   "version": "0.1.4",
   "author": "Paul de Rosanbo <paul@rosanbo.com>",
   "description": "Vacations management application for smart teams, nodejs server, angularjs frontend",
@@ -44,7 +44,7 @@
     "express-oauth-server": "^2.0.0",
     "express-session": "^1.16.1",
     "gettext-parser": "~1.2.2",
-    "google-calendar": "git://github.com/trusk-official/google-calendar.git#3aa975c2ba6c5d0c99ac59c390332a4c5fc5d7ee",
+    "google-calendar": "git://github.com/trusk-official/google-calendar.git!3aa975c2ba6c5d0c99ac59c390332a4c5fc5d7ee",
     "helmet": "~0.2.1",
     "i18n-abide": "0.0.26",
     "ical": "git://github.com/polo2ro/ical.js.git#d006048405c95328958cb4ef1a5589ab7ddc1795",
@@ -100,3 +100,4 @@
     "webshot": "~0.18.0"
   }
 }
+ 
