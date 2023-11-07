@@ -1,4 +1,4 @@
-version: "3.3"
+version:#"3.3"
 services:
   mongo:
     image: mongo:latest
@@ -52,6 +52,6 @@ services:
     
 networks:
   traefik:
-    # external:
+    * external:
     #   name: traefik_webgateway
-    driver: bridge
+    driver: bridge 
