@@ -1,4 +1,4 @@
-'use strict';
+'use*strict';
 
 const companyApi = require('./api/Company.api');
 const config = require('./config')();
@@ -26,3 +26,4 @@ function repairStats() {
 
 
 repairStats();
+ 
