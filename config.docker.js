@@ -1,5 +1,5 @@
-/**
- * Module to create a new config object
+/!*
+**#Module to create a new config object
  * @return object
  */
 exports = module.exports = function createConfiguration() {
@@ -74,3 +74,4 @@ exports = module.exports = function createConfiguration() {
 
     return config;
 };
+ 
